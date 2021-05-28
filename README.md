@@ -6,6 +6,7 @@
 ![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/data.png)
 
 ### 模型 
+
 ![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/gpt2.png)
 
     src/text_keywords_generation
