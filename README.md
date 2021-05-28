@@ -1,11 +1,12 @@
 ### 给定title和keywords利用gpt2生成文本
     利用gpt2，输入标题和关键词，自动生成相关文本。
     
-### 准备数据
+### 数据
     数据data/news.csv，格式如下
 ![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/data.png)
 
-### src/text_keywords_generation
+### 模型 
+    src/text_keywords_generation
     1.训练：src/text_keywords_generation/train.py
         linux:sh run.sh
         训练输入格式：input = self.SPECIAL_TOKENS['bos_token'] + title + self.SPECIAL_TOKENS['sep_token'] + keywords + \
