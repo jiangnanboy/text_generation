@@ -7,7 +7,7 @@
 
 ### 模型 
 
-![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/gpt2.png)
+![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/1.png)
 
     src/text_keywords_generation
     1.训练：src/text_keywords_generation/train.py
