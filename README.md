@@ -6,6 +6,8 @@
 ![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/data.png)
 
 ### 模型 
+![image](https://raw.githubusercontent.com/jiangnanboy/text_generation/master/img/gpt2.png)
+
     src/text_keywords_generation
     1.训练：src/text_keywords_generation/train.py
         linux:sh run.sh
@@ -23,6 +25,7 @@
     requirement.txt
 
 ### References
+* https://jalammar.github.io/illustrated-gpt2/
 * https://github.com/Morizeyao/GPT2-Chinese
 * https://github.com/huggingface/transformers
 * https://huggingface.co/uer/gpt2-chinese-cluecorpussmall
