@@ -21,7 +21,7 @@
         输入：input = SPECIAL_TOKENS['bos_token'] + input_title + SPECIAL_TOKENS['sep_token'] + keywords + \
                           SPECIAL_TOKENS['sep_token']
 
-    note:模型过大，在进行fine-tune时，16g的GPU会经常出现内存益出。
+    note:在进行fine-tune时，GPU会经常出现内存益出，应该调小batch_size等参数。
 ### Requirements
     requirement.txt
 
